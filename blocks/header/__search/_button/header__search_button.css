@@ -1,0 +1,7 @@
+.header__search_button {
+    position: relative;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: url("../../../../images/cursor.png"), pointer;
+}

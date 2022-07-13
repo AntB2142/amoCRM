@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./Roboto.woff2") format("woff2"), url("./Roboto.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("./Robotomedium.woff2") format("woff2"), url("./Robotomedium.woff") format("woff");
+}

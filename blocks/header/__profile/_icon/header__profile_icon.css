@@ -1,0 +1,9 @@
+.header__profile_icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 375px) {
+    .header__profile_icon {
+      display: block;
+    }
+  }

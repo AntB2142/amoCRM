@@ -1,0 +1,22 @@
+.partners__title {
+    margin: 70px 0 30px;
+    font-weight: 500;
+  font-size: 36px;
+  line-height: 58px;
+  text-transform: uppercase;
+  color: #121920;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .partners__title {
+        font-size: 28px;
+        line-height: 45px;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .partners__title {
+       margin-top: 61px;
+    }
+  }

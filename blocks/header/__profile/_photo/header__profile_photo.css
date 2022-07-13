@@ -1,0 +1,14 @@
+.header__profile_photo {
+    display: block;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  @media screen and (max-width: 375px) {
+    .header__profile_photo {
+      display: none;
+    }
+  }

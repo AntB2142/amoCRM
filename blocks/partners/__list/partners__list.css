@@ -1,0 +1,20 @@
+.partners__list {
+  padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    list-style-type: none;
+    margin: -15px -15px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .partners__list {
+      margin: -10px -10px;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .partners__list {
+      margin-bottom: 73px;
+    }
+  }

@@ -1,0 +1,8 @@
+.logo {
+    transition: all .3s;
+}
+
+.logo:hover {
+    opacity: .6;
+    cursor: url("../../images/cursor.png"), pointer;
+}

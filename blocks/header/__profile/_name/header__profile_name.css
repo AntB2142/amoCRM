@@ -1,0 +1,13 @@
+.header__profile_name {
+    margin-right: 10px;
+    font-size: 14px;
+    text-align: right;
+    line-height: 17px;
+    color: #768298;
+}
+
+@media screen and (max-width: 375px) {
+    .header__profile_name {
+        display: none;
+    }
+}

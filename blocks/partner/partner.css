@@ -1,0 +1,38 @@
+.partner {
+    padding: 28px 18px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 270px;
+    width: 100%;
+    height: 120px;
+    border: 1px solid #EBEBF1;
+    border-radius: 5px;
+    transition: all .3s;
+    cursor: url("../../images/cursor.png"), pointer;
+    margin: 15px 15px;
+    flex: 1 0 22%;
+}
+
+.partner:hover {
+    box-shadow: -3px 0px 40px rgba(0, 0, 0, .1);
+}
+
+@media screen and (max-width: 768px) {
+    .partner {
+        padding: 15px;
+        max-width: 229px;
+        margin: 10px 10px;
+        flex: 1 0 30%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .partner {
+        height: 140px;
+        padding: 25px;
+        max-width: 100%;
+        flex: 1 0 94.5%;
+    }
+}

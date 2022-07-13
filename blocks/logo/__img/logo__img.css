@@ -1,0 +1,8 @@
+.logo__img {
+    display: block;
+    transition: all .3s;
+}
+
+.logo__img:hover {
+    opacity: .8;
+}

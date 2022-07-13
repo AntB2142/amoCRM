@@ -1,0 +1,22 @@
+.header__profile {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background: transparent;
+    margin-left: -31px;
+    cursor: url("../../../images/cursor.png"), pointer;
+}
+
+@media screen and (max-width: 425px) {
+    .header__profile {
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header__profile {
+        margin-bottom: -5px;
+    }
+}
